@@ -79,38 +79,6 @@
                 "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/AB_ES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicIP",
                 "Parameters": {}
               }
-            },
-            {
-              "Identity": null,
-              "Location": "northeurope",
-              "Name": "Deploy-Log-Analytics",
-              "ResourceGroupName": null,
-              "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "SubscriptionId": null,
-              "Properties": {
-                "Scope": "/providers/Microsoft.Management/managementGroups/AB_ES-management",
-                "NotScopes": [],
-                "DisplayName": "Deploy LogAnalytics",
-                "Description": "test GittHub actions ver4",
-                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/AB_ES/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
-                "Parameters": {
-                  "workspaceName": {
-                    "value": "contoso-weu-la"
-                  },
-                  "automationAccountName": {
-                    "value": "contoso-weu-aa"
-                  },
-                  "workspaceRegion": {
-                    "value": "westeurope"
-                  },
-                  "automationRegion": {
-                    "value": "westeurope"
-                  },
-                  "rgName": {
-                    "value": "contoso-weu-mgmt"
-                  }
-                }
-              }
             }
           ],
           "roleDefinitions": null,
