@@ -102,7 +102,7 @@
                 "Scope": "/providers/Microsoft.Management/managementGroups/AB_ES-management",
                 "NotScopes": [],
                 "DisplayName": "Deploy LogAnalytics",
-                "Description": "test GittHub actions ver at 14:21",
+                "Description": "test GittHub actions ver at 14:54",
                 "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/AB_ES/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
                 "Parameters": {
                   "workspaceName": {
