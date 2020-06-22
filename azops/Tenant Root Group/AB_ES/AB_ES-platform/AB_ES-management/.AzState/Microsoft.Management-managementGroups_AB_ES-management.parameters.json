@@ -75,11 +75,7 @@
                 "Scope": "/providers/Microsoft.Management/managementGroups/AB_ES-management",
                 "NotScopes": [],
                 "DisplayName": "Deny-PublicIP",
-<<<<<<< HEAD
-                "Description": "test GittHub actions ver2",
-=======
-                "Description": "test GittHub actions ver2",
->>>>>>> origin/main
+                "Description": "test GittHub actions ver4",
                 "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/AB_ES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicIP",
                 "Parameters": {}
               }
