@@ -1,0 +1,51 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "type": "SystemAssigned",
+          "principalId": "b2cd903e-0eb3-4c33-8ea5-d2cde0e036c1",
+          "tenantId": "786725e5-36d9-4550-a3c3-d0a060668c2e"
+        },
+        "Location": "northeurope",
+        "Name": "Deploy-Log-Analytics",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/AB_ES-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
+        "ResourceName": "Deploy-Log-Analytics",
+        "ResourceGroupName": null,
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "SubscriptionId": null,
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        },
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/AB_ES-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
+        "Properties": {
+          "Scope": "/providers/Microsoft.Management/managementGroups/AB_ES-management",
+          "NotScopes": [],
+          "DisplayName": "Deploy LogAnalytics",
+          "Description": "test GittHub actions ver at 14:21",
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/AB_ES/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
+          "Parameters": {
+            "workspaceName": {
+              "value": "contoso-weu-la"
+            },
+            "automationAccountName": {
+              "value": "contoso-weu-aa"
+            },
+            "workspaceRegion": {
+              "value": "westeurope"
+            },
+            "automationRegion": {
+              "value": "westeurope"
+            },
+            "rgName": {
+              "value": "contoso-weu-mgmt"
+            }
+          }
+        }
+      }
+    }
+  }
+}
