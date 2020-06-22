@@ -5,7 +5,7 @@
     "input": {
       "value": {
         "Identity": null,
-        "Location": null,
+        "Location": "eastus",
         "Name": "3239341db4444a33b94a52f5",
         "ResourceId": "/providers/Microsoft.Management/managementGroups/AB_ES-management/providers/Microsoft.Authorization/policyAssignments/3239341db4444a33b94a52f5",
         "ResourceName": "3239341db4444a33b94a52f5",
