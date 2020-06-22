@@ -29,7 +29,7 @@
           "policyAssignments": [
             {
               "Identity": null,
-              "Location": null,
+              "Location": "eastus",
               "Name": "3239341db4444a33b94a52f5",
               "ResourceId": "/providers/Microsoft.Management/managementGroups/AB_ES-management/providers/Microsoft.Authorization/policyAssignments/3239341db4444a33b94a52f5",
               "ResourceName": "3239341db4444a33b94a52f5",
@@ -75,7 +75,11 @@
                 "Scope": "/providers/Microsoft.Management/managementGroups/AB_ES-management",
                 "NotScopes": [],
                 "DisplayName": "Deny-PublicIP",
-                "Description": "test GittHub actions ver3",
+<<<<<<< HEAD
+                "Description": "test GittHub actions ver2",
+=======
+                "Description": "test GittHub actions ver2",
+>>>>>>> origin/main
                 "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/AB_ES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicIP",
                 "Parameters": {}
               }
